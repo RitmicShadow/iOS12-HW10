@@ -56,15 +56,39 @@
 		BFFCE8942B556CAC0034F38F /* iOS12-HW10 */ = {
 			isa = PBXGroup;
 			children = (
+				BFFCE8AC2B556DC60034F38F /* App */,
+				BFFCE8AD2B556DCD0034F38F /* Sources */,
+				BFFCE8AE2B556DDD0034F38F /* Resources */,
+			);
+			path = "iOS12-HW10";
+			sourceTree = "<group>";
+		};
+		BFFCE8AC2B556DC60034F38F /* App */ = {
+			isa = PBXGroup;
+			children = (
 				BFFCE8952B556CAC0034F38F /* AppDelegate.swift */,
 				BFFCE8972B556CAC0034F38F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BFFCE8AD2B556DCD0034F38F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
 				BFFCE8992B556CAC0034F38F /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BFFCE8AE2B556DDD0034F38F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				BFFCE89B2B556CAC0034F38F /* Main.storyboard */,
 				BFFCE89E2B556CAD0034F38F /* Assets.xcassets */,
 				BFFCE8A02B556CAD0034F38F /* LaunchScreen.storyboard */,
 				BFFCE8A32B556CAD0034F38F /* Info.plist */,
 			);
-			path = "iOS12-HW10";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +318,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H45CDZK7M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS12-HW10/Info.plist";
+				INFOPLIST_FILE = "iOS12-HW10/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H45CDZK7M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS12-HW10/Info.plist";
+				INFOPLIST_FILE = "iOS12-HW10/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
